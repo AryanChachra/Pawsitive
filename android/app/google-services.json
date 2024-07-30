@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1096364420562",
+    "project_id": "pawsitive-db781",
+    "storage_bucket": "pawsitive-db781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096364420562:android:fd5e817ecdfd2789ddec0b",
+        "android_client_info": {
+          "package_name": "com.example.pawsitive_match"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096364420562-p96lhr2l3uuof97prdmirt9jcumjh0gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pawsitive_match",
+            "certificate_hash": "aba332ac9b0efd4634ae4c0cd8615090d0366747"
+          }
+        },
+        {
+          "client_id": "1096364420562-fm3ale7b59luvpq2kvs211s3887v5d8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8WvQwDboszlVd2jKxTir8_-Zu7snuCws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096364420562-fm3ale7b59luvpq2kvs211s3887v5d8q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1096364420562-7d2lfm2mh1n4v9h4nggife4io8b3a6l2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pawsitiveMatch"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
