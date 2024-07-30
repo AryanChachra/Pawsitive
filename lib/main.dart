@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:pawsitive_match/pages/auth_page.dart';
 import 'package:pawsitive_match/pages/home_page.dart';
 import 'package:pawsitive_match/pages/login_or_register_page.dart';
@@ -17,6 +18,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform
   );
+  await dotenv.load(fileName: ".env");
   runApp(pawsitiveMatch());
 
 }
