@@ -5,7 +5,7 @@ import 'package:pawsitive_match/pages/home_page.dart';
 import 'package:pawsitive_match/widgets/button.dart';
 import 'package:pawsitive_match/widgets/theme.dart';
 import 'package:pawsitive_match/widgets/textfield.dart';
-import '../widgets/squaretile.dart';
+
 
 class RegisterPage extends StatefulWidget {
   final Function()? onTap;

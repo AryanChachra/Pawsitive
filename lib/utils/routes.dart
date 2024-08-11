@@ -6,4 +6,7 @@ class MyRoutes{
   static String authRoute = "/auth";
   static String registerRoute = "/register";
   static String togglePages = "/togglepage";
+  static String settingsRoute = "/settings";
+  static String communityRoute = "/community";
+  static String petlistRoute = '/petlist';
 }

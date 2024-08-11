@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:pawsitive_match/pages/start_page1.dart';
 import 'package:pawsitive_match/widgets/theme.dart';
@@ -20,7 +19,7 @@ class _StartPageState extends State<StartPage> with SingleTickerProviderStateMix
 
     // Initialize the animation controller
     _controller = AnimationController(
-      duration: const Duration(seconds: 10),
+      duration: const Duration(seconds: 3), // Shortened duration for quick testing
       vsync: this,
     );
 
@@ -38,7 +37,7 @@ class _StartPageState extends State<StartPage> with SingleTickerProviderStateMix
       if (status == AnimationStatus.completed) {
         Navigator.of(context).pushReplacement(
           PageRouteBuilder(
-            pageBuilder: (context, animation, secondaryAnimation) => StartPage1(),
+            pageBuilder: (context, animation, secondaryAnimation) => const StartPage1(),
             transitionsBuilder: (context, animation, secondaryAnimation, child) {
               return FadeTransition(
                 opacity: animation,
@@ -60,16 +59,15 @@ class _StartPageState extends State<StartPage> with SingleTickerProviderStateMix
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: MyTheme.logocolor,
-      ),
       backgroundColor: MyTheme.logocolor,
-      body: Column(
-        children: [
-          Image.asset("assets/images/pawsitive.jpg"),
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset("assets/images/pawsitive.jpg"),
+          ],
+        ),
       ),
     );
   }
 }
-

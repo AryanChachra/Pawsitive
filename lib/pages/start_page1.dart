@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pawsitive_match/utils/routes.dart';
 import 'package:pawsitive_match/widgets/theme.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 
 class StartPage1 extends StatelessWidget {
@@ -16,7 +16,7 @@ class StartPage1 extends StatelessWidget {
           SizedBox(height: 200,),
           Center(child: Image.asset('assets/images/fishbowl.png'),),
           SizedBox(height: 20,),
-          Text('  Find Your\nCompanion', style: TextStyle(fontFamily: 'Playwrite Denmark Loopet', fontWeight: FontWeight.w300, fontSize: 42,)),
+          Text('  Find Your\nCompanion', style: TextStyle( fontWeight: FontWeight.w300, fontSize: 42,)),
           SizedBox(height: 90,),
           ElevatedButton(
 
